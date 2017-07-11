@@ -75,6 +75,7 @@ class Example extends Component {
                     icon={TabIcon}
                     navigationBarStyle={{backgroundColor: 'red'}}
                     titleStyle={{color: 'white'}}
+                    hideTabBar={true}
                   >
                     <Scene
                       key="tab1_1"

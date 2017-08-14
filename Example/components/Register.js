@@ -19,6 +19,7 @@ export default class Register extends React.Component {
       <Button onPress={()=>Actions.register2()}>Register</Button>
       <Button onPress={Actions.home}>Replace screen</Button>
       <Button onPress={Actions.pop}>Back</Button>
+      <Button onPress={() => Actions.popTo('tab1')}>Tabbar1</Button>
     </View>
   }
 }

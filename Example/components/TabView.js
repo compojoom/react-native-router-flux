@@ -38,6 +38,7 @@ class TabView extends React.Component {
         <Button onPress={()=>Actions.tab2_2()}>next screen for tab2_1</Button>
         }
         <Button onPress={Actions.pop}>Back</Button>
+        <Button onPress={() => {Actions.register()}}>register </Button>
         <Button onPress={() => { Actions.tab1(); }}>Switch to tab1</Button>
         <Button onPress={() => { Actions.tab2(); }}>Switch to tab2</Button>
         <Button onPress={() => { Actions.tab3(); }}>Switch to tab3</Button>
